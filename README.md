@@ -1,4 +1,16 @@
-# go-blockchain
-basic blockchain written in go
+# Go-Blockchain
 
-This doesn't inclue the blockchain network, but shows what goes in, and just how simple it is to write a blockchain
+## Introduction
+
+> This doesn't include a blockchain network, but shows the fundamental concepts and development behind any blockchain
+
+## Running the blockchain
+
+Run the Code however you want, exe or "go run main.go"
+
+> GET "/"
+to View your Blockchain
+
+> POST "/" to post data to your blockchain
+
+Example POST: {"Data":100}
