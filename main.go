@@ -21,7 +21,7 @@ type Block struct {
 	Timestamp string // the time the data is written
 	Data      int    // the custom data, could be anything, this represents an integer
 	Hash      string // SHA256 identifier representing this data record
-	PrevHash  string // SHA256 identifier of the previous record in the chai
+	PrevHash  string // SHA256 identifier of the previous record in the chain
 }
 
 // Message ... to be able to take the request body of the POST req / {"Data":100}
